@@ -1,0 +1,32 @@
+.loan-details {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.details-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.total-amt {
+  color: #0f86f7;
+  font-weight: 700;
+}
+
+.monthly-payment {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.monthly-payment .amount .currency {
+  font-weight: 700;
+  vertical-align: 20px;
+}
+
+.monthly-payment .amount .value {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: -20px;
+}

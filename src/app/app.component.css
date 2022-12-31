@@ -1,0 +1,28 @@
+.row {
+  width: 62rem;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  border: 2px solid #e6e6e6;
+}
+
+.col {
+  width: 50%;
+}
+
+@media (max-width: 1020px) {
+  .row {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .row {
+    flex-direction: column;
+    width: 95%;
+  }
+  .col {
+    width: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+.loan-form {
+  width: 100%;
+  background-color: #f0f5ff;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.form-item input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.loan-amount {
+  position: relative;
+}
+
+.loan-amount select {
+  background-color: #0f86f7;
+  border: 1px solid #0f86f7;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  padding: 12px;
+  color: #fff;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.interest-rate {
+  position: relative;
+}
+
+.interest-rate:after {
+  background-color: #ffffff;
+  color: #0f86f7;
+  content: '%';
+  font-weight: 600;
+  height: 38px;
+  width: 30px;
+  padding: 0 5px;
+  position: absolute;
+  right: 5px;
+  top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.calculateBtn {
+  background-color: #0f86f7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}

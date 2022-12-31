@@ -1,0 +1,23 @@
+.header {
+  background-color: #0f86f7;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  padding: 1rem;
+  color: #ffffff;
+  width: 62rem;
+  margin: auto;
+}
+
+@media (max-width: 1020px) {
+  .header h1 {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .header h1 {
+    width: 100%;
+  }
+}
